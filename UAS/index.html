@@ -29,12 +29,12 @@
       <div class="container h-100">
         <div class="row h-100 align-items-center">
           <div class="col-6 text-white">
-            <h1>{{header.title}}</h1>
-            <p>{{header.description}}</p>
+            <h1>{{header.name}}</h1>
+            <p>{{header.motto}}</p>
             <div class="social">
-              <a v-bind:href="header.social == undefined ? '':header.social.ig.url"><i class="bi-instagram"></i> {{header.social == undefined ? '':header.social.ig.title}}</a>
-              <a v-bind:href="header.social == undefined ? '':header.social.fb.url"><i class="bi-github"></i> {{header.social == undefined ? '':header.social.fb.title}}</a>
-              <a v-bind:href="header.social == undefined ? '':header.social.yt.url"><i class="bi-youtube"></i> {{header.social == undefined ? '':header.social.yt.title}}</a>
+              <a v-bind:href="header.ig_url"><i class="bi-instagram"></i> </a>
+              <a v-bind:href="header.fb_url"><i class="bi-github"></i> </a>
+              <a v-bind:href="header.yt_url"><i class="bi-youtube"></i> </a>
             </div>
           </div>
           <div class="col-6 align-self-end text-center">
